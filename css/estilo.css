@@ -1,0 +1,186 @@
+
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin:36px 36px 36px 36px;
+
+}
+
+.banner{
+    width:234px;
+}
+
+nav{
+    display:flex;
+    gap:63px;
+    align-items: flex-end;
+}
+
+.nav2{
+    margin-left: 36px;
+    width: 100%;
+    margin-bottom: 33px;
+}
+
+h1{
+    text-align: center;
+    width:100%;
+    margin-bottom: 33px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+
+form{
+    display:flex;
+    flex-wrap: wrap;
+    width: 666px;
+    justify-content: center;
+    margin:0 auto;
+    margin-bottom: 54px;
+    margin-top: 70px;
+}
+.campo{
+    margin: 0 auto;
+}
+
+label{
+    padding-bottom:12px;
+}
+input[type=text],input[type=url], input[type=number],input[type=email] {
+    background-color: rgba(148, 148, 148, 0.10);
+    width:666px;
+    height:36px;
+    padding-left:16px; 
+    
+}
+
+span{
+    color:grey;
+}
+
+textarea{
+    width:666px;
+    height:194px;
+    background-color: rgba(148, 148, 148, 0.10);
+
+}
+
+input[type=checkbox]{
+    width:22px;
+    height:22px;
+    margin-right: 10px;
+}
+
+.validacion{
+    display:flex;
+    
+}
+
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    width:175px;
+    height: 36px;
+    background-color: #069697;
+    color:white;
+    margin-bottom: 33px;
+}
+
+section{
+    width: 981px;
+    display:flex;
+    gap:108px;
+    margin:0 auto;
+}
+article{
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px; 
+    }
+.boton2{
+    width: 102px;
+    height: 36px;
+}
+
+.imgArti{
+    border-radius: 50%;
+}
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    display:flex;
+    color: white;
+    padding:46px 87px;
+    flex-wrap: wrap;
+    
+
+    
+
+}
+
+.nav3{
+    width: 1026px;
+    flex-wrap: wrap;
+    
+}
+
+.nom_empresa{
+    width:230px;
+    text-align: center;
+    
+    
+}
+
+address{
+    width: 250px;
+    text-align: center;
+}
+
+.telefono{
+    width: 168px;
+    text-align: center;
+}
+
+.aviso{
+    width: 220px;
+    text-align: center;
+}
+
+
+.privacidad{
+    width: 290px;
+    text-align: center;
+}
+
+.arriba{
+    width: 100%;
+    display: flex;
+
+}
+
+.iconos{
+    display:flex;
+    gap:38px;
+    padding-left: 51px;
+}
+
+.abajo{
+    width: 100%;
+    display: flex;
+}
