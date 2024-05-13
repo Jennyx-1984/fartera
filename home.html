@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/type.css" rel="stylesheet">
+        <link href="css/estiloHOM.css" rel="stylesheet">
+        <link href="css/mediaHOM.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
+        
+</head>
+<body>
+    <header>
+        <img class="bannerH" src="logo/FC-logo-isotipo.svg" alt="logo Fartera Catering">
+        <img class="banner" src="logo/FC-logo-horizontal.svg" alt="logo Fartera Catering">
+    
+        <div><button class="abrir-menu sinboton" id="abrir"><img src="icons/Vector.svg" alt="menu hamburguesa" name="hamburguesa"></button></div>
+    <nav class="nav visible" id="nav">
+      <div><button id="cerrar" class="sinboton"><img src="icons/Vector.svg" alt="menu hamburguesa" name="hamburguesa"></button></div>
+
+        <!-- <div><button><img src="icons/Vector.svg" alt="menu hamburguesa" name="hamburguesa"></button></div> -->
+        <ul class="nav-list">
+
+        <li><a href="home.html" class="no_blue">INICIO</a></li>
+        <li><a href="historia.html" class="no_blue">HISTORIA</a></li>
+        <li><a href="servicios.html" class="no_blue">SERVICIOS</a></li>
+        <li><a href="contacto.html" class="no_blue">CONTACTO</a></li>
+      </ul>
+
+    </nav>
+
+    
+    
+      
+    <script src="js/hamburguesa.js"></script>
+
+
+</header>
+<main>
+
+
+
+
+
+  <section class="slider">
+    <div>
+        <img src="icons/FLECHAS-der.svg" alt="flecha derecha" class="slider-derecho" id="before">
+        <div class="slider__img">
+            <img  class="foto-slider" name="imagen" >
+
+        </div>
+        
+        
+        <img src="icons/FLECHAS-izq.svg" alt="flecha izquierda" class="slider-izquierdo" id="after">
+        <img src="icons/pause1.png" alt="boton pausa y play" class="pausa stop" id="pausa">
+    </div>
+</section>
+<script src="js/gallery.js"></script>
+
+
+
+
+
+
+<!--<section class="valores">
+  <h1>Nuestros valores</h1>
+  
+  <article class="profesionalidad">
+    <div class="texto-primero">
+      <h2 class="subtitol">Profesionalidad</h2>
+  <p>Un extenso grupo de profesionales reunidos por y para satisfacer las necesidades de cada evento particular o privado.</p>
+  <div><button type="button" class="call"><a href="contacto.html" class="enlace-button">CONTACTAR</a></button></div>
+</div>
+<picture >
+  <source srcset="imgs/profesionalidad1.png,
+                imgs/profesionalidad1@2x.png 2x,
+                imgs/profesionalidad1@3x.png 3x" media="(min-width:680px)">
+  <source srcset="imgs/profesionalidad2.png,
+                  imgs/profesionalidad2@2x.png 2x,
+                  imgs/profesionalidad2@3x.png 3x" media="(min-width:320px)">     
+  <img src="imgs/profesionalidad1@3x.png" alt="hombre haciendo postres" class="foto">
+</picture>   
+
+</article>
+
+<article class="compromiso">
+    <picture >
+      <source srcset="imgs/compromiso1.png,
+                      imgs/compromiso1@2x.png 2x,
+                      imgs/compromiso1@3x.png 3x" media="(min-width:680px)"> 
+      <source srcset="imgs/compromiso2.png,
+                      imgs/compromiso2@2x.png 2x,
+                      imgs/compromiso2@3x.png 3x" media="(min-width:320px)">       
+    <img src="imgs/compromiso1@3x.png" alt="preparando comida" class="foto">
+  </picture>
+  <div class="texto-segundo">
+  <h2 class="subtitol">Compromiso</h2>
+  <p>Seleccionamos productos frescos de temporada y trabajamos con pequeños proveedores de km0. Queremos dejar huella.</p>
+  <div><button type="button" class="call"><a href="contacto.html" class="enlace-button">CONTACTAR</a></button></div>
+  </div>
+  </article>
+</section> -->
+
+
+
+
+<!-- con grid-->
+<section class="valores">
+  <article class="profesionalidad">
+    <div class="texto-primero">
+      <div><h2 class="subtitol">Profesionalidad</h2></div>
+      <div></div>
+      <p>Un extenso grupo de profesionales reunidos por y para satisfacer las necesidades de cada evento particular o privado.</p>
+        <div></div>
+        <div><button type="button" class="call"><a href="contacto.html" class="enlace-button">CONTACTAR</a></button></div>
+      </div>
+
+      <div><picture >
+        <source srcset="imgs/profesionalidad1.png,
+                      imgs/profesionalidad1@2x.png 2x,
+                      imgs/profesionalidad1@3x.png 3x" media="(min-width:680px)">
+        <source srcset="imgs/profesionalidad2.png,
+                        imgs/profesionalidad2@2x.png 2x,
+                        imgs/profesionalidad2@3x.png 3x" media="(min-width:320px)">     
+        <img src="imgs/profesionalidad1@3x.png" alt="hombre haciendo postres" class="foto">
+      </picture></div>
+
+      </article>
+
+
+      <article class="compromiso">
+        <picture >
+          <source srcset="imgs/compromiso1.png,
+                          imgs/compromiso1@2x.png 2x,
+                          imgs/compromiso1@3x.png 3x" media="(min-width:680px)"> 
+          <source srcset="imgs/compromiso2.png,
+                          imgs/compromiso2@2x.png 2x,
+                          imgs/compromiso2@3x.png 3x" media="(min-width:320px)">       
+        <img src="imgs/compromiso1@3x.png" alt="preparando comida" class="foto">
+      </picture>
+      <div class="texto-segundo">
+      <h2 class="subtitol">Compromiso</h2>
+      <p>Seleccionamos productos frescos de temporada y trabajamos con pequeños proveedores de km0. Queremos dejar huella.</p>
+      <div><button type="button" class="call"><a href="contacto.html" class="enlace-button">CONTACTAR</a></button></div>
+      </div>
+      </article>
+</section>
+
+</main>
+
+
+<section class="menu">
+  <h2 class="titol2"> Descubre nuestros menús</h2>
+
+  <article class="menus">
+       <picture>
+          <source srcset="imgs/empresa1.jpg,
+                          imgs/empresa1@2x.png 2x,
+                          imgs/empresa1@3x.png 3x">   
+      <img class="imgArti" src="imgs/empresa1@3x.png" alt="preparación de postres">
+      </picture>
+  
+  <h3>Empresas</h3>
+  <div class="boton2"><a href="empresas.html" class="link">Ver menú</a></div>
+  </article>
+
+
+  <article class="menus">
+          <picture>
+              <source srcset="imgs/celebraciones1.jpg,
+              imgs/celebraciones1@2x.png 2x,
+              imgs/celebraciones1@3x.png 3x">     
+      <img class="imgArti" src="imgs/celebraciones1@3x.png" alt="preparación plato">
+  </picture>
+  <h3>Celebraciones</h3>
+  <div class="boton2"><a href="#" class="link" >Ver menú</a></div>
+  </article>
+
+
+  <article class="menus">
+      
+          <picture>
+              <source srcset="imgs/escuela1.jpg,
+              imgs/escuela1@2x.png 2x,
+              imgs/escuela1@3x.png 3x">  
+          <img class="imgArti" src="imgs/escuela1@3x.png" alt="zafatas con comida">
+      </picture>
+      <h3>Escuelas</h3>
+      <div class="boton2"><a  href="#" class="link">Ver menú</a></div>
+  </article>
+
+
+</section>
+
+
+<footer>
+  <nav class="nav4">
+      <div><address>© 2020 - Fartera Catering.</address></div>
+      <div><address>C/ Llacuna 162, 08018 Barcelona.</address></div>
+      <div class="telefono">Telf.: 93 542 65 65</div>
+      <div class="iconos">
+          <a href="https://twitter.com/FarteraCatering" target="_blank"><img src="icons/twitter.svg" alt="icono twitter"></a>
+          <a href="https://instagram.com/FarteraCatering" target="_blank"><img src="icons/instagram.svg" alt="icono instagram"></a>
+          <a href="https://facebook.com/FarteraCatering" target="_blank"><img src="icons/facebook.svg" alt="icono facebook"></a>
+      </div>
+      </div>
+      <div class="aviso">Aviso legal</div>
+      <div class="privacidad">Política de privacidad</div>
+      <div class="cookies">Política de cookies</div>
+      </div>
+  
+  
+  
+  
+  </nav>
+</footer>
+
+</body> 
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="catering para empresas, celebraciones y escuelas">
+    <title>Contacto</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/type.css" rel="stylesheet">
+    <link href="css/estiloCON.css" rel="stylesheet">
+    <link href="css/mediaCON.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+            <img class="bannerH" src="logo/FC-logo-isotipo.svg" alt="logo Fartera Catering">
+            <img class="banner" src="logo/FC-logo-horizontal.svg" alt="logo Fartera Catering">
+        
+            <div><button class="abrir-menu sinboton" id="abrir"><img src="icons/Vector.svg" alt="menu hamburguesa" name="hamburguesa"></button></div>
+            <nav class="nav visible" id="nav">
+              <div><button id="cerrar" class="sinboton"><img src="icons/Vector.svg" alt="menu hamburguesa" name="hamburguesa"></button></div>
+        
+                <!-- <div><button><img src="icons/Vector.svg" alt="menu hamburguesa" name="hamburguesa"></button></div> -->
+                <ul class="nav-list">
+        
+                <li><a href="home.html" class="no_blue">INICIO</a></li>
+                <li><a href="historia.html" class="no_blue">HISTORIA</a></li>
+                <li><a href="servicios.html" class="no_blue">SERVICIOS</a></li>
+                <li><a href="contacto.html" class="no_blue">CONTACTO</a></li>
+              </ul>
+        
+            </nav>
+        
+            
+            
+              
+            <script src="js/hamburguesa.js"></script>
+            <nav class="nav2"><div><a href="home.html">INICIO</a></div><div>CONTACTO</div></nav>
+    </header>
+    
+    <main>
+        
+
+        <h1 class="titol1">CONTACTO</h1>
+        <h2 class="subtitol">Solicita presupuesto</h2>
+
+
+        <form enctype="application/x-www-form-urlencoded" method="post" name="formulario" action="formulario.php" id="formulario">
+        <div class="campo"> 
+        <div><label for="nombre">Nombre</label></div>
+        <div><input id="nombre" type="text" tabindex="1" accesskey="n" name="nombre"></div>
+        <span id="nom-error" class="ocultar">Valor incorrecto</span>
+    </div>
+
+
+        <div class="campo">
+            <div><label for="empresa">Empresa</label></div>
+            <div><input id="empresa" type="text" tabindex="2" accesskey="e" name="empresa"></div>
+            <span id="empresa-error" class="ocultar">Valor incorrecto</span>
+        </div>
+
+
+        <div class="campo">
+            <div><label for="web">Web</label></div>
+            <div><input id="web" type="url" tabindex="3" accesskey="w" name="web"></div>
+            <span id="web-error" class="ocultar">Valor incorrecto</span>
+        </div>
+
+        <div class="campo">
+            <div><label for="asistentes">Número de asistentes aproximado <span class="asistencia">(mínimo 20 - máximo 200)</span></label></div>
+            <div><input id="asistentes" tabindex="4" accesskey="a" name="asistentes" type="number" min="20" max="200" placeholder="20" required></div>
+        </div>
+
+
+        <div class="campo">
+            <div><label for="email">E-mail de contacto</label></div>
+            <div><input id="email" tabindex="5" accesskey="m" name="email" type="email" pattern="^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$"></div>
+            <span id="email-error" class="ocultar">Valor incorrecto</span>
+        </div>
+
+        <div class="campo">
+            <div class="mensaje"><label for="mensaje">Mensaje</label></div>
+            <textarea id="mensaje" tabindex="6" accesskey="c" name="mensaje"></textarea>
+            <span id="mensaje-error" class="ocultar">El campo está vacio</span>
+
+
+        </div>
+
+        <div class="validacion">
+        <div><input id="confirmar" type="checkbox" tabindex="7" accesskey="v" name="confirmar" value="confirmar" required></div>
+          <div> <label for="confirmar">He leído y acepto la <a href="http://www.farteracatering.com/politica-de-privacidad" target="_blank">política de privacidad</a></label></div>
+
+
+        </div>
+
+
+        <div class="boton">
+            <button id="contactar" name="contactar" value="contactar" type="submit" tabindex="8" class="boton1">CONTACTAR</button>
+        </div>
+        
+
+        </form> 
+        <script src="js/formulario.js"></script>
+
+
+
+    </main>
+
+    
+<section class="menu">
+    <h2 class="titol2"> Descubre nuestros menús</h2>
+
+    <article class="menus">
+         <picture>
+            <source srcset="imgs/empresa1.jpg,
+                            imgs/empresa1@2x.png 2x,
+                            imgs/empresa1@3x.png 3x">   
+        <img class="imgArti" src="imgs/empresa1@3x.png" alt="preparación de postres">
+        </picture>
+    
+    <h3>Empresas</h3>
+    <div class="boton2"><a href="empresas.html" class="link">Ver menú</a></div>
+    </article>
+
+
+    <article class="menus">
+            <picture>
+                <source srcset="imgs/celebraciones1.jpg,
+                imgs/celebraciones1@2x.png 2x,
+                imgs/celebraciones1@3x.png 3x">     
+        <img class="imgArti" src="imgs/celebraciones1@3x.png" alt="preparación plato">
+    </picture>
+    <h3>Celebraciones</h3>
+    <div class="boton2"><a href="#" class="link" >Ver menú</a></div>
+    </article>
+
+
+    <article class="menus">
+        
+            <picture>
+                <source srcset="imgs/escuela1.jpg,
+                imgs/escuela1@2x.png 2x,
+                imgs/escuela1@3x.png 3x">  
+            <img class="imgArti" src="imgs/escuela1@3x.png" alt="zafatas con comida">
+        </picture>
+        <h3>Escuelas</h3>
+        <div class="boton2"><a  href="#" class="link">Ver menú</a></div>
+    </article>
+
+
+</section>
+
+
+
+<footer>
+<nav class="nav4">
+    <div><address>© 2020 - Fartera Catering.</address></div>
+    <div><address>C/ Llacuna 162, 08018 Barcelona.</address></div>
+    <div class="telefono">Telf.: 93 542 65 65</div>
+    <div class="iconos">
+        <a href="https://twitter.com/FarteraCatering" target="_blank"><img src="icons/twitter.svg" alt="icono twitter"></a>
+        <a href="https://instagram.com/FarteraCatering" target="_blank"><img src="icons/instagram.svg" alt="icono instagram"></a>
+        <a href="https://facebook.com/FarteraCatering" target="_blank"><img src="icons/facebook.svg" alt="icono facebook"></a>
+    </div>
+    </div>
+    <div class="aviso">Aviso legal</div>
+    <div class="privacidad">Política de privacidad</div>
+    <div class="cookies">Política de cookies</div>
+    </div>
+    </nav>
+
+
+
+
+
+
+
+</footer>
+
+
+</body>
+</html>
